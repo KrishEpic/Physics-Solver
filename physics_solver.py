@@ -6,4 +6,4 @@ cols = st.columns(5)
 with cols[0]:
   st.image("kinematics.png")
   if st.button("Kinematics"):
-    go_to("kinematics")
+    st.switch_page("kinematics.py")
